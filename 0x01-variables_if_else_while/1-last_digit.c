@@ -5,7 +5,7 @@
 /**
  * main - entry point, Prints the last digit of a random number
  *and if else condition to check whether
-  it is greater than 5, less than 6, or 0.
+ * it is greater than 5, less than 6, or 0.
  *
  * Return: Always 0.
  */
