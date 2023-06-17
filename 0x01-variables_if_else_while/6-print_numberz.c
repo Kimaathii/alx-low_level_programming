@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point print numbers from 0 to 9
+ * main - entry point to print base 10 numbers with putchar
  * Return: 0 Always (success)
-*/
+ */
 int main(void)
 {
 	int num;
@@ -11,6 +11,5 @@ int main(void)
 		putchar((num % 10) + '0');
 
 	putchar('\n');
-
 	return (0);
 }
