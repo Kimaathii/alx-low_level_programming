@@ -5,20 +5,22 @@
   */
 int main(void)
 {
-	unsigned long count, a, b, c;
+	unsigned long count, a, j, c;
 
 	a = 0;
-	b = 1;
+	j = 1;
 	for (count = 0; count < 50; count++)
 	{
-		c = a + b;
-		a = b;
-		a = c;
-		printf("%lu", cc);
+		c = a + j;
+		a = j;
+		j = c;
+		printf("%lu", c);
 		if (count == 49)
 			putchar('\n');
 		else
+		{
 			printf(", ");
+		}
 	}
 	return (0);
 }
