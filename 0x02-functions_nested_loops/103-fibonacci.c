@@ -5,14 +5,14 @@
   */
 int main(void)
 {
-	unsigned long count, x, j, k, sums;
+	unsigned long count, i, j, k, sums;
 
-	x = sums = 0;
+	i = sums = 0;
 	j = 1;
 	for (count = 0; count < 50; count++)
 	{
-		x = x + j;
-		x = j;
+		k = i + j;
+		i = j;
 		j = k;
 		if (k % 2 == 0 && k < 4000000)
 		{
