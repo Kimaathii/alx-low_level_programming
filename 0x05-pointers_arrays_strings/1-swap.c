@@ -2,12 +2,12 @@
 
 /**
  * swap_int - Swaps the values of two character.
- * @x: The first integer to be swapped.
- * @y: The second integer to be swapped.
+ * @x: The first character to be swapped.
+ * @y: The second character to be swapped.
  */
-void swap_int(int *x, int *y)
+void swap_int(char *x, char *y)
 {
-	int tmp = *x;
+	char tmp = *x;
 	*x = *y;
 	*y = tmp;
 }
